@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VASU STEELS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; 
+            padding: 0; 
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #004080;
+            color: white; 
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #003366;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin: 20px auto;
+            max-width: 900px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+        h1, h2 {
+            color: #004080;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>VASU STEELS</h1>
+    <p>Strong, Reliable Steel Solutions for Your Projects</p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>VASU STEELS is a trusted name in the steel industry, committed to delivering high-quality steel products tailored for construction, manufacturing, and infrastructure development. Our focus is on strength, durability, and customer satisfaction, making us a preferred partner for all steel needs.</p>
+</section>
+
+<div class="image-container">
+    <img src="https://i.ibb.co/rR5TvyF5/OIP-2.jpg" alt="VASU STEELS Image" />
+</div>
+
+<section id="products">
+    <h2>Our Products</h2>
+    <ul>
+        <li>Steel Bars and Rods</li>
+        <li>Steel Sheets and Plates</li>
+        <li>Structural Steel</li>
+        <li>Custom Steel Fabrication</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@vasusteels.com</p>
+    <p>Phone: +91 98765 43210</p>
+    <p>Address: Jaipur, Rajasthan, India</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 VASU STEELS. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
